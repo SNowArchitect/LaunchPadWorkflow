@@ -6,6 +6,10 @@ Workflow optimization using a Novation Launchpad MIDI controller to trigger keys
 - Novation LaunchPad Midi Controller
 - Bome's Midi Translator Classic : https://www.bome.com/products/mtclassic
 - AutoHotKey : https://www.autohotkey.com/
+- Midikey2key : https://midikey2key.de/
+
+
+##### *NOTE: Midikey2key is used only to obtain the color that will can use to set for each pad. The output is a HEX number that we use in Bome's to set the colors*
 
 ## How it work:
 The pads on the Launchpad are mapped to AutoHotKey triggers. When pressing an assigned pad, the pad generates a set of keystrokes that match trigger definitions within AutoHotkey that then execute our desired actions.
